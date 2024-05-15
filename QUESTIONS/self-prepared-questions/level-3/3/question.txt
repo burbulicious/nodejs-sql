@@ -1,0 +1,5 @@
+Create a new table named "awards" to store information about awards won by movies. 
+Include columns for the award name, movie title, and year. 
+Then, write a script in Node.js to read data from an awards.csv
+file containing award information and insert it into the newly created "awards" table. 
+Ensure proper error handling and rollback in case of failures.

@@ -1,0 +1,1 @@
+Find the names of people born in 1980 and whose names contain the letter "J".

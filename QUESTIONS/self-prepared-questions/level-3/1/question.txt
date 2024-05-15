@@ -1,0 +1,1 @@
+List 10 latest movies and their directors where the director also starred in that movie. 

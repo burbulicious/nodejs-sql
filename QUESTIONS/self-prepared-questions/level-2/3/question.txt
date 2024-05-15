@@ -1,0 +1,4 @@
+Insert a new movie record into the database with the title "New Release", 
+released in 2023, with a rating of 8.5.
+
+And then delete those records

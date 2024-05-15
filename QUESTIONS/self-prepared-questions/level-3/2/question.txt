@@ -1,0 +1,3 @@
+Compare the list of actors who have appeared in movies directed by Quentin Tarantino
+with the list of actors who have appeared in movies directed by Martin Scorsese.
+Provide a list of actors who have worked with both directors.

@@ -1,0 +1,2 @@
+Develop a SQL query to retrieve 10 latest movie titles, associated directors,
+and a concatenated list of names of all stars appearing in each movie.
