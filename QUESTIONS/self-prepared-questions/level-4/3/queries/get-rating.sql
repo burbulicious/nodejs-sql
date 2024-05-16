@@ -1,0 +1,1 @@
+SELECT * FROM ratings WHERE movie_id = ? ;

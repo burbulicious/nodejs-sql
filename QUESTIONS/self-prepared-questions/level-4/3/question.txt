@@ -1,0 +1,2 @@
+Add a rating for a selected movie that doesn't have any ratings using node js. 
+The pass the name of the movie title,release year and the rating as comand line arguments.

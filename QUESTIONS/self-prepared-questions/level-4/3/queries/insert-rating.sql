@@ -1,0 +1,1 @@
+INSERT INTO ratings (movie_id, rating, votes) VALUES (?, ?, 1);
