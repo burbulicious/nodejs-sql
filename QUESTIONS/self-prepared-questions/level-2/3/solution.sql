@@ -8,12 +8,12 @@ INSERT INTO ratings (movie_id, rating, votes)
         WHERE title = 'New Release' AND year = 2023
     ), 8.5, 1);
 
-DELETE FROM movies 
-    WHERE title = 'New Release' AND year = 2023;
-
 DELETE FROM ratings
     WHERE movie_id = (
         SELECT id
         FROM movies
         WHERE title = 'New Release' AND year = 2023
     );
+
+DELETE FROM movies 
+    WHERE title = 'New Release' AND year = 2023;

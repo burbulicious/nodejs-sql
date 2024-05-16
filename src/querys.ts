@@ -27,4 +27,9 @@ const sql3Query = async (): Promise<string[]> => {
   return Promise.resolve(movieTitles)
 }
 
-export { sql1Query, sql2Query, sql3Query, getSqlQuery }
+const deleteMovie = async (movieTitle: string): Promise<void> => {
+  const query = await getSqlQuery('delete-movie.sql')
+  query.run(movieTitle)
+}
+
+export { sql1Query, sql2Query, sql3Query, getSqlQuery, deleteMovie }
